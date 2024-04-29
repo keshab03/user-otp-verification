@@ -1,0 +1,31 @@
+#container {
+  height: 83.8vh;
+  background: linear-gradient(to bottom, #056b6b, #5b5e5b);
+  font-size: large;
+}
+#heading {
+  text-decoration: underline;
+}
+
+.card-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+  padding: 10px;
+}
